@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Template 4</title>
+  </head>
+  <body>
+    <!-- start setting -->
+    <div class="settings-box">
+      <div class="setting">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="setting-content">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li data-color="#ff9800" class="active"></li>
+            <li data-color="#E91e63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03A9f4"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random background</h4>
+          <div class="random-spans">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Activate Bullets</h4>
+          <div class="active-bullets-spans">
+            <span class="yes active" data-active="yes">Yes</span>
+            <span class="no" data-active="no">No</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- end setting -->
+    <!-- start navigation bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-nav=".about-us">
+        <div class="toolkit">About Us</div>
+      </div>
+      <div class="bullet" data-nav=".skills">
+        <div class="toolkit">Our skills</div>
+      </div>
+      <div class="bullet" data-nav=".gallery">
+        <div class="toolkit">Gallery</div>
+      </div>
+      <div class="bullet" data-nav=".timeline">
+        <div class="toolkit">timeline</div>
+      </div>
+      <div class="bullet" data-nav=".features">
+        <div class="toolkit">features</div>
+      </div>
+      <div class="bullet" data-nav=".testimonials">
+        <div class="toolkit">testimonials</div>
+      </div>
+    </div>
+    <!-- end navigation bullets -->
+    <!-- start landing -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Special Design</div>
+          <ul class="options">
+            <li><a href="#" data-nav=".about-us">About</a></li>
+            <li><a href="#" data-nav=".skills">Skills</a></li>
+            <li><a href="#" data-nav=".gallery">Gallery</a></li>
+            <li><a href="#" data-nav=".testimonials">Timeline</a></li>
+          </ul>
+          <div class="button-container">
+            <button class="toggle-button">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+          mollitia quibusdam accusamus
+        </p>
+      </div>
+    </div>
+    <!-- end landing -->
+    <!-- start abour us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-content">
+          <h3>About us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius
+            eum at, rerum provident placeat, quaerat tempora tenetur velit
+            accusantium asperiores nemo quo? Doloribus, ipsum provident! Eos
+            quam libero dolorem?
+          </p>
+        </div>
+        <div class="img-box">
+          <img src="images/World wide web_Monochromatic.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end about us -->
+    <!-- start our skills -->
+    <div class="skills">
+      <div class="container">
+        <h3>our skills</h3>
+        <div class="skill-box">
+          <div class="skill-name">HTml</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">css</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">javascript</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our skills -->
+    <!-- start gallery -->
+    <div class="gallery">
+      <h3>Gallery</h3>
+      <div class="container">
+        <div class="images-box">
+          <img src="images/image-1.jpg" alt="image 1" srcset="" />
+          <img src="images/image-2.jpg" alt="image 2" srcset="" />
+          <img src="images/image-3.jpg" alt="image 3" srcset="" />
+          <img src="images/image-4.jpg" alt="image 4" srcset="" />
+          <img src="images/image-5.jpg" alt="image 5" srcset="" />
+          <img src="images/image-6.jpg" alt="image 6" srcset="" />
+          <img src="images/image-7.jpg" alt="image 7" srcset="" />
+          <img src="images/image-8.jpg" alt="image 8" srcset="" />
+          <img src="images/image-9.jpg" alt="image 9" srcset="" />
+          <img src="images/image-10.jpg" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+    <!-- end gallery -->
+    <!-- start timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Header</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+                voluptates cumque, ipsum similique earum dolore non dolor,
+                doloribus minus sunt asperiores sint exercitationem qui
+                reprehenderit autem. Voluptatum expedita cupiditate itaque.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Header</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+                voluptates cumque, ipsum similique earum dolore non dolor,
+                doloribus minus sunt asperiores sint exercitationem qui
+                reprehenderit autem. Voluptatum expedita cupiditate itaque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end timeline -->
+    <!-- start features -->
+    <div class="features">
+      <h3 class="header">features</h3>
+      <div class="container">
+        <div class="feature-box">
+          <img src="images/web-design.png" alt="" srcset="" />
+          <h3>Web development</h3>
+          <p>We are ammazing developer</p>
+        </div>
+        <div class="feature-box">
+          <img src="images/settings.png" alt="" srcset="" />
+          <h3>Web Security</h3>
+          <p>We are ammazing security</p>
+        </div>
+        <div class="feature-box">
+          <img src="images/graphic-designer.png" alt="" srcset="" />
+          <h3>Design</h3>
+          <p>We are ammazing designing</p>
+        </div>
+        <div class="feature-box">
+          <img src="images/ux-design.png" alt="" srcset="" />
+          <h3>inspired</h3>
+          <p>We are ammazing in choosing colors</p>
+        </div>
+        <div class="feature-box">
+          <img src="images/ux-design (1).png" alt="" srcset="" />
+          <h3>UI / UX</h3>
+          <p>We are ammazing UI/Ux Designers</p>
+        </div>
+        <div class="feature-box">
+          <img src="images/analysis.png" alt="" srcset="" />
+          <h3>Data Analysis</h3>
+          <p>We are ammazing Analytics</p>
+        </div>
+      </div>
+    </div>
+    <!-- end features -->
+    <!-- start testinmonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h3 class="header">Testimonials</h3>
+        <div class="ts-box">
+          <p>
+            I love this site very very much i am so happy to work with this team
+            the best team in the world
+          </p>
+          <div class="info-box">
+            <img src="images/avatar-01.png" alt="" />
+            <h3>John doe</h3>
+            <p>CEO Of Colcacola and pepsi</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            I love this site very very much i am so happy to work with this team
+            the best team in the world
+          </p>
+          <div class="info-box">
+            <img src="images/avatar-02.png" alt="" />
+            <h3>John doe</h3>
+            <p>CEO Of Colcacola and pepsi</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            I love this site very very much i am so happy to work with this team
+            the best team in the world
+          </p>
+          <div class="info-box">
+            <img src="images/avatar-03.png" alt="" />
+            <h3>John doe</h3>
+            <p>CEO Of Colcacola and pepsi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end testinmonials -->
+    <!-- start contact -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h3>Contact</h3>
+        <form action="">
+          <div class="left">
+            <input type="text" name="username" placeholder="your name" />
+            <input type="email" name="email" placeholder="your email" />
+            <input type="text" name="number" placeholder="your number" />
+            <input type="text" name="text" placeholder="your text" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="your message"></textarea>
+            <input type="button" value="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer  -->
+    <footer>
+      with love with me
+      <span>2022</span>
+    </footer>
+    <!-- end footer  -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
